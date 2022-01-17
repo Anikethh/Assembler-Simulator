@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Add command to run your program here
+javac assembler/*.java -d class_files/
+java -classpath class_files assembler.Main

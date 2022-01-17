@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Add command to run your program here
+javac simulator/*.java -d class_files/
+java -classpath class_files simulator.Main
